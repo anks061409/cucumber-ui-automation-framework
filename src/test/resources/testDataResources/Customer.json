@@ -1,0 +1,29 @@
+		{
+		"testcasename":"CustomerRegistration",
+		"testcasedata":[
+			{
+				"firstName": "test",
+				"lastName": "user",		
+				"email": "test@yopmail.com",
+				"confirmEmail": "test@yopmail.com",
+				"DOB": {
+					"day": "5",
+					"month": "5",
+					"year": "1988"
+				},
+				"address": {
+					"postCode": "CV211AE"
+					
+				},
+				"phoneNumber": {
+					"home": "012345678",
+					"mob": "0987654321"
+				},
+				"password": {
+					"pass": "Test@123",
+					"confirmPass": "Test@123"
+				}
+			}
+		]
+		
+	}
