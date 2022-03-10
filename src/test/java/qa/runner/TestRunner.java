@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "classpath:/features/",
                     glue = {"qa.stepDefinition","qa.setup"},
-                   /* tags = "@test",*/
+                    tags = "@test",
                     monochrome=true,
                     plugin = {"pretty", "summary","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}, snippets = CAMELCASE)
 

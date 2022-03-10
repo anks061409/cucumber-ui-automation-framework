@@ -1,3 +1,4 @@
+@test
 Feature: Visit website sandbox.deltapath.com
 
 	Background:
