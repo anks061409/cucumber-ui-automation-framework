@@ -52,7 +52,7 @@ Maven Java Project / Maven Wrapper
 -----
 This project is written in Java and tests can be executed using Maven commands. 
 
-    ./mvn clean install  
+   mvn clean test "-Dcucumber.options=--tags '@test'" 
 
 
 Code Gen Step Definitions
